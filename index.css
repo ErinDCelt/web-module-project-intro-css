@@ -25,6 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 0 auto;
+
 }
 ol, ul {
 	list-style: none;
@@ -51,15 +53,54 @@ html {
     box-sizing : border-box;
 }
 
-div {
-    display: inline-block;
+
+
+ h1 {
+	color: black;
+	font-family: Chelsea Market;
+	font-size: 5rem;
+	text-align: center;
+	
+
 }
 
-  a.navitem1 {
-     color: #FF764E;
-     font-family: Roboto Mono;
-     border: solid round 1rem;
+  a {
+	font-family: Roboto Mono;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	border-radius: 1rem;
+	font-size: 3rem;
+	width: 20rem;
+	height: 8rem;
+
+	
 
 
-} 
+}
+
+* p, h2 {
+	font-family: Roboto Mono;
+	font-size: 3rem;
+
+}
+  .container a.visit-box {
+	 background: #FF764E;
+	 color: #FFFFFF;
+	
+}
+
+
+	 
+
+
+.container a.learn-box {
+	background: #5ED3EB;
+	color: #FFFFFF;
+}
+
+.container a.involve-box {
+	background: #FFCD69;
+	color: #FFFFFF;
+}
 
